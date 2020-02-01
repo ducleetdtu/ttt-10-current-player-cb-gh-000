@@ -7,5 +7,3 @@ def turn_count(board)
   end
   count
 end
-board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-puts turn_count(board1)
