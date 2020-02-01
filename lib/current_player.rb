@@ -15,6 +15,3 @@ def current_player(board)
     return "O"
   end
 end
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-puts current_player(board)
-puts turn_count(board)
