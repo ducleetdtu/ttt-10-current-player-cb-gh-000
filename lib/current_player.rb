@@ -1,4 +1,4 @@
-def turn_count(board){
+def turn_count(board)
   count = 0
   board.each{
     |turn|
@@ -6,4 +6,4 @@ def turn_count(board){
       count += 1
   }
   return count
-}
+end
